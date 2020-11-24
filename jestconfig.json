@@ -1,7 +1,27 @@
-{
+
+  {
+    "modulePaths": [
+      "<rootDir>"
+    ],
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ],
     "transform": {
-      "^.+\\.(t|j)sx?$": "ts-jest"
+      ".(js|jsx|ts|tsx)": "ts-jest"
     },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+    "testMatch": [
+      "**/__tests__/*.spec.+(ts|js)",
+      "**/__tests__/*/*.spec.+(ts|js)"
+    ],
+    "coverageReporters": [
+      "text",
+      "cobertura",
+      "lcov"
+    ],
+    "reporters": [
+      "default"
+    ]
   }

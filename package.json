@@ -1,14 +1,14 @@
 {
-  "name": "boilerplate-lib-ts-node",
+  "name": "mongoose-serialize",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "src/index.d.ts",
-  "repository": "git@github.com:mobixsoftwarestudio/boilerplate-lib-ts-node.git",
+  "repository": "git@github.com:nicholasess/mongoose-serialize.git",
   "bugs": {
-    "url": "https://github.com/mobixsoftwarestudio/boilerplate-lib-ts-node.git"
+    "url": "https://github.com/nicholasess/mongoose-serialize.git"
   },
   "private": false,
-  "author": "MobixTec <devteam@mobixtec.com>",
+  "author": "Nicholas Eduardo <nicholasess@gmail.com>",
   "license": "MIT",
   "files": [
     "dist/**/*",
@@ -16,7 +16,10 @@
   ],
   "devDependencies": {
     "@types/jest": "^26.0.14",
+    "faker": "^5.1.0",
     "jest": "^26.4.2",
+    "mongodb-memory-server": "^6.9.2",
+    "mongoose": "^5.10.15",
     "prettier": "^2.1.2",
     "ts-jest": "^26.3.0",
     "tslint": "^6.1.3",
